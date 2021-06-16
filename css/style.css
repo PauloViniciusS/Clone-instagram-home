@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 58%;
+    height: 100vh;
+}
+
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-phone img{
+    height: 40rem;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction:column;
+    width: 70%;
+    min-height: 24rem;
+    margin: 40px;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 12px 30px;
+    margin: 5px;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-height: 22rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+}
+
+.not-account{
+    color: rgb(84, 84, 84);
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    background-size: cover;
+}
+
+/*Media queries*/
+
+@media (max-width: 1024px){
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+}
